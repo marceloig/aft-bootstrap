@@ -26,6 +26,7 @@ Utilize o CloudFormation disponível no repositório abaixo para criar a pipelin
 
 > https://github.com/aws-samples/aft-bootstrap-pipeline
 
+> ⚠️ **Atenção:** Nos parâmetros do CloudFormation, ao executar o bootstrap de criação do AFT Pipeline, informe a versão do Terraform mais recente no momento atual (1.14).
 ### 2. Criar os repositórios Git
 
 Após a criação da pipeline, crie 4 repositórios no provedor Git da sua escolha:
