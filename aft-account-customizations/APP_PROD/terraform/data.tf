@@ -11,4 +11,6 @@ data "aws_ssm_parameter" "backup_account_id" {
   name     = "/org/core/accounts/backup"
 }
 
-data "aws_availability_zones" "available" {}
+data "aws_availability_zones" "available" {
+  state = "available"
+}

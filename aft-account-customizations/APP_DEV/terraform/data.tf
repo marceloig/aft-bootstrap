@@ -5,3 +5,7 @@ data "aws_ssm_parameter" "network_account_id" {
   provider = aws.aft-management
   name     = "/org/core/accounts/network"
 }
+
+data "aws_availability_zones" "available" {
+  state = "available"
+}
