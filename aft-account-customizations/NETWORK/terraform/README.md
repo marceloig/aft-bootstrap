@@ -74,7 +74,7 @@ aws_availability_zones = {
 
 | Name | Version |
 |------|---------|
-| terraform | >=1.5.0 |
+| terraform | >=1.14.0 |
 
 ## Providers
 
